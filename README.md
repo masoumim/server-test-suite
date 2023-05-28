@@ -21,6 +21,33 @@ As this project lacks a front-end / UI / Client, the best way to interact with t
 
 The test suite will test the following HTTP methods: GET, POST, PUT and DELETE.
 
+# API endpoints
+**Get:**
+  
+
+/fruits
+
+
+/fruits/:id
+
+
+/fruits?color=colorName
+
+**Post:**
+  
+
+/fruits
+
+**Put:**
+  
+
+/fruits/:id
+
+**Delete:**
+  
+
+/fruits/:id
+
 # installing and running
 After cloning the repository, you can install all of the dependences automatically by typing `npm install` into the terminal.
 To start the server, type `node server.js` into the terminal.
