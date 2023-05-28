@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha test/routes/fruits-test.js"
+  }
+}
